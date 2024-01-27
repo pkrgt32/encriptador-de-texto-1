@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Encriptador de texto</h1>
+    </header>
+   <div class="caja">
+        <div class="cajaEncriptar">
+            <textarea onkeyup="this.value = this.value.toLowerCase().replace(/[^a-z0-9 ]/g, '')"   class="inTex" id="texInicio"      placeholder="escrive el texto a encriptar" ></textarea>
+            <div></div>
+            <button onclick="inpTexE();" class="butE">Encriptar</button>
+            <button onclick="inpTexD();" class="butD">desencriptar
+        
+        </div>
+        <div class="cajaDesencritado">
+            <div class="cajaTexFinal">
+                <p class="textofinalc" id="textofinal"></p>
+            </div>
+            <BUtton class="butC">copiar</BUtton>
+        </div>
+    </div>
+    <footer>
+        <H2>Encriptador de testo 2024</H2>
+        <p>grupo 6</p> <P>alura latam </P>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
