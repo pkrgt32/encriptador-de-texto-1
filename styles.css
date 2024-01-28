@@ -83,7 +83,7 @@ h1{
 }
 .cajaTexFinal{
     background-color: #FFFFFF;
-    width: 88%;
+    width: 90%;
     height: 400px;
     margin-top: 50px;
     margin-left: 45px;
@@ -91,6 +91,7 @@ h1{
     font-size: 22px;
     
 }
+
 
 .butC{
     width: 90%;
@@ -106,6 +107,7 @@ h1{
     width: 88%;
     height: 400px;
     font-size: 22px;
+    overflow-y: hidden;
 }
 .imgTexFinal{
     position: relative;
@@ -140,4 +142,182 @@ h2 {
     margin-top: 20px;
     margin-bottom: 15px;
     font-size: 2em; 
+}
+@media screen and (max-width:768px){
+    .logoAlurra{
+      position:absolute;
+      left: 5px;
+    }  
+    header h1{
+      font-size: 50px;
+      margin-top: 20px;
+    } 
+    .cajaDesencritado{
+      
+      height:990px ;
+    }
+   
+    .cajaTexFinal{
+        position: relative;
+        width: 300px;
+        height: 800px;
+    }
+    .imgTexFinal{
+        position: absolute;
+        width: 200; ;
+        height: 200px;
+        top: 25px;
+        left: 50px;
+    }
+    .butC{
+        position: relative;
+        width: 300px;
+    }
+   #texFinH4{
+       position: relative;
+        font-size: 20px;
+        margin-right: 50px;
+        top: 250px;
+    }  
+    #texFinP {
+        position: relative;
+        font-size: 10px;
+        margin-right: 50px;
+        top: 270px
+    }
+    .textofinalc{
+        margin-top: 10px;
+        margin-left: 10px;
+        overflow-y: scroll;
+        
+    }
+
+    .cajaEncriptar{
+      
+      height:990px ;
+    }
+    .inTex{
+        position: relative;
+        width: 300px;
+        height: 800px ;
+    }
+    .butE{
+        position: relative;
+        width: 140px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .butD{
+        position: relative;
+        width: 140px; 
+        margin-left: 0px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    footer{
+      position: absolute;
+      top: 1100px;
+      height:90px ;
+    }
+    footer h2{
+      font-size: 15px;
+    }
+    footer p{
+      font-size: 7.5px;
+    }
+}
+@media screen and (max-width:343px){
+  html{
+    width: 100%;
+    height: 100%;
+  }
+  body{
+    width: 100%;
+    
+  }
+  header h1{
+    position: relative;
+    font-size: 20px;
+    top: 20px;
+    left: 20px;
+  }
+  .inTex{
+    position: relative;
+    width: 250px;
+    height: 155px;
+    font-size: 11px;
+  }
+  .butE{
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .butD{
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .cajaEncriptar{
+    float: none;
+    width: 100%;
+    height: 300px;
+  }
+  .cajaDesencritado{
+    left: 0;
+    width: 100%;
+    height: 300px;
+  }
+  .cajaTexFinal{
+    position: relative;
+    width: 250px;
+    height: 155px;
+  }
+  .imgTexFinal{
+    width: 50px;
+    height: 50px;
+    left: 99px;
+  }
+  .texMesage{
+    text-align: center;
+    overflow-y:auto;
+  }
+  #texFinH4{
+    position: relative;
+     font-size: 15px;
+     margin-right: 50px;
+     top: 100px;
+     text-align: center;
+  }
+  #texFinP{
+    position: relative;
+    font-size: 5px;
+    margin-right: 50px;
+    top: 100px;
+    text-align: center;
+    
+  }
+  .textofinalc{
+    font-size: 11px;
+    overflow-y:scroll;
+  }
+  .butC{
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+  }
+  footer{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    top: 20px;
+  }
+  footer h2{
+    font-size: 10px;
+    margin-bottom:1px ;
+  }
+  footer p{
+    font-size: 5px;
+    margin-top:1px ;
+  }
 }
