@@ -9,21 +9,27 @@
 </head>
 <body>
     <header>
+        <img class="logoAlurra" src="img/Logo (1).png" alt="imajen alira">
         <h1>Encriptador de texto</h1>
     </header>
    <div class="caja">
         <div class="cajaEncriptar">
-            <textarea onkeyup="this.value = this.value.toLowerCase().replace(/[^a-z0-9 ]/g, '')"   class="inTex" id="texInicio"      placeholder="escrive el texto a encriptar" ></textarea>
+            <textarea onkeyup="this.value = this.value.toLowerCase().replace(/[^a-z0-9 ]/g, '')"   class="inTex" id="texInicio"      placeholder="Ingrese el texto aqui" ></textarea>
             <div></div>
-            <button onclick="inpTexE();" class="butE">Encriptar</button>
-            <button onclick="inpTexD();" class="butD">desencriptar
+            <button onclick="inpTexE();" class="butE" id="butE">Encriptar</button>
+            
+            <button onclick="inpTexE();" class="butD" id="butD">Desencriptar</button>
+            
         
         </div>
         <div class="cajaDesencritado">
             <div class="cajaTexFinal">
                 <p class="textofinalc" id="textofinal"></p>
+                <img class="imgTexFinal" id="imgTexFinal" src="img/Muñeco (1).png" alt="muñeca">
+                <h4 class="texMesage" id="texFinH4">Ningún mensaje fue encontrado</h4>
+                <p class="texMesage" id="texFinP">Ingresa el texto que desees encriptar o desencriptar.</p>
             </div>
-            <BUtton class="butC">copiar</BUtton>
+            <BUtton class="butC" id="butC">copiar</BUtton>
         </div>
     </div>
     <footer>
