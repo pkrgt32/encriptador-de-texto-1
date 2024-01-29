@@ -8,6 +8,7 @@ let texFinP = document.getElementById("texFinP")
 let imgTexFinal = document.getElementById("imgTexFinal");
 let texInicio = document.getElementById("texInicio")
 botonC.style.display = "none";
+
 botonE.addEventListener("click", function() {
 
   if (texInicio.value !== ""){
@@ -25,17 +26,16 @@ botonE.addEventListener("click", function() {
 });
 
 botonD.addEventListener("click", function() {
-
-  if (texInicio.value !== ""){
   
-    imgTexFinal.style.display = "none";
-    texFinH4.style.display = "none";
-    texFinP.style.display = "none";
-    texFin.style.display = "block" ;
-    botonC.style.display = "block";
-    texInicio.value = ''
-  }
+  imgTexFinal.style.display = "none"; //style.display es una propiedad de JavaScript
+  texFinH4.style.display = "none"; //que controla la visibilidad de un elemento HTML.
+  texFinP.style.display = "none"; // si el valor es none el elenento se elimina 
+  texFin.style.display = "block" // si el valor es block el elemento se muestra este valor es el balor predeterminado
+  botonC.style.display = "block";
+  texInicio.value = '' // elimina el texto de input
+  
 });
+
 //copia texto
 botonC.addEventListener("click", function() {
   //navigator.clipboard.writeText() se utilisa para comopiar 
@@ -59,8 +59,8 @@ function inpTexE() { // la funsion esta en el botos para cuando se presione se e
     let o = a.replace(/o/g, "ober");
     let u = o.replace(/u/g, "ufat");
   
-    let codificar = document.getElementById('textofinal'); //qui se escribe el resutado del texto modificado
-    codificar.textContent = u;
+    let elemento = document.getElementById('textofinal'); //qui se escribe el resutado del texto modificado
+    elemento.textContent = u;
 }
 
 
@@ -77,10 +77,11 @@ function inpTexD() {
     let ober = ai.replace(/ober/g, "o");
     let ufat = ober.replace(/ufat/g, "u")
 
-    let decodificar = document.getElementById('textofinal');
-    decodificar.textContent = ufat;
-
+    let hola = document.getElementById('textofinal');
+    hola.textContent = ufat;
+   
   }
-  inpTexD()
+
+  inpTexD();
 
   
