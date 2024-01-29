@@ -33,7 +33,7 @@ botonE.addEventListener("click", function() {
 
 
 botonD.addEventListener("click", function() {
-if (texInicio.value !== ""){
+
     
     
     
@@ -45,7 +45,7 @@ if (texInicio.value !== ""){
     texInicio.value = '' // elimina el texto de input
     
   
-}  
+
 });
 
 //copia texto
