@@ -26,13 +26,19 @@ botonE.addEventListener("click", function() {
 });
 
 botonD.addEventListener("click", function() {
+  if (texInicio.value !== ""){
+    
+    
+    imgTexFinal.style.display = "none"; //style.display es una propiedad de JavaScript
+    texFinH4.style.display = "none"; //que controla la visibilidad de un elemento HTML.
+    texFinP.style.display = "none"; // si el valor es none el elenento se elimina 
+    texFin.style.display = "block" // si el valor es block el elemento se muestra este valor es el balor predeterminado
+    botonC.style.display = "block";
+    texInicio.value = '' // elimina el texto de input
+    
   
-  imgTexFinal.style.display = "none"; //style.display es una propiedad de JavaScript
-  texFinH4.style.display = "none"; //que controla la visibilidad de un elemento HTML.
-  texFinP.style.display = "none"; // si el valor es none el elenento se elimina 
-  texFin.style.display = "block" // si el valor es block el elemento se muestra este valor es el balor predeterminado
-  botonC.style.display = "block";
-  texInicio.value = '' // elimina el texto de input
+  }
+  
   
 });
 
