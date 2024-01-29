@@ -8,14 +8,7 @@ let texFinP = document.getElementById("texFinP")
 let imgTexFinal = document.getElementById("imgTexFinal");
 let texInicio = document.getElementById("texInicio")
 botonC.style.display = "none";
-botonD.addEventListener("click", function() {
-  borrar()
-  
-});
-botonE.addEventListener("click", function() {
-  borrar()
-  
-});
+
 
 
 //copia texto
@@ -43,6 +36,7 @@ function inpTexE() { // la funsion esta en el botos para cuando se presione se e
   
     let elemento = document.getElementById('textofinal'); //qui se escribe el resutado del texto modificado
     elemento.textContent = u;
+    borrar ()
 }
 
 
@@ -62,7 +56,7 @@ function inpTexD() {
 
     let hola = document.getElementById('textofinal');
     hola.textContent = ufat;
-
+    borrar ()
   }
   inpTexD();
 
