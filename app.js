@@ -8,45 +8,15 @@ let texFinP = document.getElementById("texFinP")
 let imgTexFinal = document.getElementById("imgTexFinal");
 let texInicio = document.getElementById("texInicio")
 botonC.style.display = "none";
-botonE.addEventListener("click", function() {
-
-  if (texInicio.value !== ""){
-    
-    
-    imgTexFinal.style.display = "none"; //style.display es una propiedad de JavaScript
-    texFinH4.style.display = "none"; //que controla la visibilidad de un elemento HTML.
-    texFinP.style.display = "none"; // si el valor es none el elenento se elimina 
-    texFin.style.display = "block" // si el valor es block el elemento se muestra este valor es el balor predeterminado
-    botonC.style.display = "block";
-    texInicio.value = '' // elimina el texto de input
-  }
-  else{
-    undefined
-  }  
-  
-  
-});
-
-
-
-
-
-
 botonD.addEventListener("click", function() {
-
-    
-    
-    
-    imgTexFinal.style.display = "none"; //style.display es una propiedad de JavaScript
-    texFinH4.style.display = "none"; //que controla la visibilidad de un elemento HTML.
-    texFinP.style.display = "none"; // si el valor es none el elenento se elimina 
-    texFin.style.display = "block" // si el valor es block el elemento se muestra este valor es el balor predeterminado
-    botonC.style.display = "block";
-    texInicio.value = '' // elimina el texto de input
-    
+  borrar()
   
-
 });
+botonE.addEventListener("click", function() {
+  borrar()
+  
+});
+
 
 //copia texto
 botonC.addEventListener("click", function() {
@@ -83,7 +53,7 @@ inpTexE();
 function inpTexD() {
     
   let textod = document.getElementById('texInicio').value;
-    document.querySelector('#texInicio').value = '';
+    
     let enter = textod.replace(/enter/g, "e");
     let imes = enter.replace(/imes/g, "i");
     let ai = imes.replace(/ai/g, "a");
@@ -92,10 +62,23 @@ function inpTexD() {
 
     let hola = document.getElementById('textofinal');
     hola.textContent = ufat;
-    console.log("HOLA")
+
   }
   inpTexD();
 
-  
-
+  function borrar (){
+    if (texInicio.value !== ""){
+    
+    
+      imgTexFinal.style.display = "none"; //style.display es una propiedad de JavaScript
+      texFinH4.style.display = "none"; //que controla la visibilidad de un elemento HTML.
+      texFinP.style.display = "none"; // si el valor es none el elenento se elimina 
+      texFin.style.display = "block" // si el valor es block el elemento se muestra este valor es el balor predeterminado
+      botonC.style.display = "block";
+      texInicio.value = '' // elimina el texto de input
+      
+    
+    }
+  }
+  borrar()
 
