@@ -59,8 +59,8 @@ function inpTexE() { // la funsion esta en el botos para cuando se presione se e
     let o = a.replace(/o/g, "ober");
     let u = o.replace(/u/g, "ufat");
   
-    let elemento = document.getElementById('textofinal'); //qui se escribe el resutado del texto modificado
-    elemento.textContent = u;
+    let codificar = document.getElementById('textofinal'); //qui se escribe el resutado del texto modificado
+    codificar.textContent = u;
 }
 
 
@@ -77,8 +77,8 @@ function inpTexD() {
     let ober = ai.replace(/ober/g, "o");
     let ufat = ober.replace(/ufat/g, "u")
 
-    let hola = document.getElementById('textofinal');
-    elemento.textContent = ufat;
+    let decodificar = document.getElementById('textofinal');
+    decodificar.textContent = ufat;
 
   }
   inpTexD()
