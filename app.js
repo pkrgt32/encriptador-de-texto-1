@@ -32,7 +32,7 @@ botonD.addEventListener("click", function() {
     texFinH4.style.display = "none";
     texFinP.style.display = "none";
     texFin.style.display = "block" ;
-    
+    botonC.style.display = "block";
     texInicio.value = ''
   }
 });
