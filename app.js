@@ -8,7 +8,6 @@ let texFinP = document.getElementById("texFinP")
 let imgTexFinal = document.getElementById("imgTexFinal");
 let texInicio = document.getElementById("texInicio")
 botonC.style.display = "none";
-
 botonE.addEventListener("click", function() {
 
   if (texInicio.value !== ""){
@@ -20,13 +19,17 @@ botonE.addEventListener("click", function() {
     texFin.style.display = "block" // si el valor es block el elemento se muestra este valor es el balor predeterminado
     botonC.style.display = "block";
     texInicio.value = '' // elimina el texto de input
-    
-  
   }
+  else{
+    undefined
+  }  
+  
+  
 });
 
 botonD.addEventListener("click", function() {
-  if (texInicio.value !== ""){
+
+  
     
     
     imgTexFinal.style.display = "none"; //style.display es una propiedad de JavaScript
@@ -37,9 +40,7 @@ botonD.addEventListener("click", function() {
     texInicio.value = '' // elimina el texto de input
     
   
-  }
-  
-  
+    
 });
 
 //copia texto
@@ -75,7 +76,8 @@ inpTexE();
     
  
 function inpTexD() {
-    let textod = document.getElementById('texInicio').value;
+    
+  let textod = document.getElementById('texInicio').value;
     document.querySelector('#texInicio').value = '';
     let enter = textod.replace(/enter/g, "e");
     let imes = enter.replace(/imes/g, "i");
@@ -85,9 +87,10 @@ function inpTexD() {
 
     let hola = document.getElementById('textofinal');
     hola.textContent = ufat;
-   
+    console.log("HOLA")
   }
-
   inpTexD();
 
   
+
+
