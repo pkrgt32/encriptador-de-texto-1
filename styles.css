@@ -203,3 +203,45 @@ footer{
     height: 15%;
   }
 }
+@media only screen and (max-width: 778px) {
+  header h1{
+    text-align: center;
+    font-size: 2em;
+    bottom: 0.4em
+  }
+  .logoAlurra{
+    top: 1em;
+  }
+  .caja{
+    height: 46.7em;
+  }
+  .cajaTexFinal{
+    position: absolute;
+    
+    width: 100%;
+    height: 41%;
+    top: 50%;
+    left: 0%
+  }
+  .cajaImput{
+    position: absolute;
+    top:0%;
+    width: 100%;
+    height: 48%;
+  }
+  .inTex{
+    font-size: 2em;
+  }
+  .imgTexFinal{
+    width: 50%;
+    left: 29%;
+    top: 15%;
+  }
+  .texMesage{
+    font-size: 1em;
+    top: 60%;
+  }
+  .butC{
+    height: 15%;
+  }
+}
