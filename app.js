@@ -7,7 +7,7 @@ let texFinH4 = document.getElementById("texFinH4");
 let texFinP = document.getElementById("texFinP")
 let imgTexFinal = document.getElementById("imgTexFinal");
 let texInicio = document.getElementById("texInicio")
-
+botonC.style.display = "none";
 botonE.addEventListener("click", function() {
 
   if (texInicio.value !== ""){
@@ -17,7 +17,7 @@ botonE.addEventListener("click", function() {
     texFinH4.style.display = "none"; //que controla la visibilidad de un elemento HTML.
     texFinP.style.display = "none"; // si el valor es none el elenento se elimina 
     texFin.style.display = "block" // si el valor es block el elemento se muestra este valor es el balor predeterminado
-    
+    botonC.style.display = "block";
     texInicio.value = '' // elimina el texto de input
     
   
@@ -45,6 +45,7 @@ botonC.addEventListener("click", function() {
   texFinH4.style.display = "block";
   texFinP.style.display = "block";
   texFin.style.display = "none" ;
+  botonC.style.display = "none";
 });
 
 
@@ -83,5 +84,3 @@ function inpTexD() {
   inpTexD()
 
   
-
-

@@ -1,323 +1,205 @@
 body{
-    width: auto;
-    height:590px ;
-    background-color: black;
+  position: relative;
+  width: 100%;
+  height: auto;
+  
+  font-family: 'Bevan', serif;
 }
 
-header {
-    width: 100%;
-    height: 100px;
-    background: black;
-    text-align: center;
-    font-size: 4em;
-    border: solid;
-    border-color: #ffff;
-    color: #8d41fe;
-
+header{
+  position: relative;
+  width: 100%;
+  height: 30%;
+ 
+}
+header h1{
+  position: relative;
+  text-align: center;
+  font-size: 4em;
+  bottom: 0.5em;
 }
 .logoAlurra{
-    position: absolute;
-    top: 30px;
-    left: 50px;
-}
-h1{
-    margin-top: 10px;
-    
+  position: relative;
+  width: 10%;
+  top: 2em;
 }
 .caja{
-    width: 100%;
-    height: 100%;
-}
-.cajaEncriptar{
-    border: solid;
-    border-color: #ffff;
-    width: 50%;
-    height: 589.1px;
-    left: 50%;
-    float:left;
-    
-}
-
-
-
-.inTex{
-    position: relative;
-    width: 88%;
-    height: 400px;
-    margin-top: 50px;
-    margin-left: 45px;
-    color: #8d41fe;
-    font-size: 22px;
-    
-    
-}
-::placeholder{
-    color: #8d41fe;
-}
-.butE{
-    width: 40%;
-    height: 60px;
-    margin-left: 45px;
-    margin-top: 45px;
-    font-size: 2em;
-    color: #8d41fe;
-
-}
-.butD{
-    width: 40%;
-    height: 60px;
-    margin-left: 45px;
-    margin-top: 45px;
-    margin-bottom: 45px;
-    font-size: 2em;
-    color: #8d41fe;
-}
-.cajaDesencritado{
-    position: absolute;
-    border: solid;
-    border-color: #ffff;
-    width: 50%;
-    height: 589.1px;
-    left: 50%;
-
+  position: relative;
+  width: 100%;
+  height: 45.6em;
+ 
+ 
 }
 .cajaTexFinal{
-    background-color: #FFFFFF;
-    width: 90%;
-    height: 400px;
-    margin-top: 50px;
-    margin-left: 45px;
-    color: #8d41fe;
-    font-size: 22px;
-    
-}
-
-
-.butC{
-    width: 90%;
-    height: 60px;
-    margin-left: 45px;
-    margin-top: 45px;
-    margin-bottom: 45px;
-    font-size: 2em;
-    color: #8d41fe;
-}
-.textofinalc{
-    position: absolute;
-    width: 88%;
-    height: 400px;
-    font-size: 22px;
-    overflow-y: hidden;
+  position: absolute;
+  
+  left: 70%;
+  width: 25%;
+  height: 60%;
+  top: 20%;
+  background-color: #EFF2E6;
+  
 }
 .imgTexFinal{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    top: 50px;
-    left: 250px;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 90%;
+
 }
 .texMesage{
-    position: relative;
-    top: 50px;
-    left: 20px;
-    text-align: center;
+  position: relative;
+  text-align: center;
+  top: 70%;
+}
+
+.cajaImput{
+  position: absolute;
+  
+  width: 64%;
+  height: 80%;
+  left: 2%;
+  top: 5%;
+  text-align: center;
+  
+  
 }
 #texFinH4{
-    font-size: 30px;
+  
+  font-size: 25px ;
+  font-weight: bold;
+  margin-bottom: 1.5em; 
 }
 #texFinP{
-    font-size: 15px;
-    margin: 1em;
+  font-size: 1em;
+  font-family: 'BhuTuka Expanded One', serif;
+}
+.textofinalc{
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  font-family: 'BhuTuka Expanded One', serif;
+  font-size: 1.6em;
+  word-wrap: break-word;
+  overflow-y: hidden;
+  height: auto;
+  box-sizing: border-box;
+}
+.butC{
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+  width: 30%;
+  height: 5%;
+  border-radius: 51px;
+  color: #7c9631;
+  border-color: #7c9631
+}
+.inTex{
+  position: relative;
+  width:60% ;
+  height:60%;
+  top: 15%; 
+  font-size: 3em;
+  font-family: 'BhuTuka Expanded One', serif;
+  
+}
+::placeholder{
+  font-size: -1.6em;
+  color: #7c9631;
+  
+}
+.alvertencia{
+  position: absolute;
+  left: 18%;
+  top: 80%;
+  font-family: 'BhuTuka Expanded One', serif;
+}
+
+.butE{
+  position:absolute;
+  top: 87%;
+  left: 18%;
+  height: 10%;
+  width: 30%;  
+  border-radius: 51px;
+  background-color: #7c9631;
+}
+.butD{
+  position:absolute;
+  top: 87%;
+  height: 10%;
+  width: 30%;
+  right: 18%;
+  border-radius: 51px;
+  color: #7c9631;
+  border-color: #7c9631;
 }
 footer{
-    position: absolute;
-    width: 100%;
-    height: 109px;
-    border: solid;
-    border-color: #ffff;
-    color: #8d41fe;
-    text-align: center;
+  position: relative;
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  
+  font-family: 'BhuTuka Expanded One', serif;
+  
 }
-h2 {
-    margin-top: 20px;
-    margin-bottom: 15px;
-    font-size: 2em; 
-}
-@media screen and (max-width:768px){
-    .logoAlurra{
-      position:absolute;
-      left: 5px;
-    }  
-    header h1{
-      font-size: 50px;
-      margin-top: 20px;
-    } 
-    .cajaDesencritado{
-      
-      height:990px ;
-    }
-   
-    .cajaTexFinal{
-        position: relative;
-        width: 300px;
-        height: 800px;
-    }
-    .imgTexFinal{
-        position: absolute;
-        width: 200; ;
-        height: 200px;
-        top: 25px;
-        left: 50px;
-    }
-    .butC{
-        position: relative;
-        width: 300px;
-    }
-   #texFinH4{
-       position: relative;
-        font-size: 20px;
-        margin-right: 50px;
-        top: 250px;
-    }  
-    #texFinP {
-        position: relative;
-        font-size: 10px;
-        margin-right: 50px;
-        top: 270px
-    }
-    .textofinalc{
-        margin-top: 10px;
-        margin-left: 10px;
-        overflow-y: scroll;
-        
-    }
-
-    .cajaEncriptar{
-      
-      height:990px ;
-    }
-    .inTex{
-        position: relative;
-        width: 300px;
-        height: 800px ;
-    }
-    .butE{
-        position: relative;
-        width: 140px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-        font-size: 20px;
-    }
-    .butD{
-        position: relative;
-        width: 140px; 
-        margin-left: 0px;
-        margin-bottom: 20px;
-        font-size: 20px;
-    }
-    footer{
-      position: absolute;
-      top: 1100px;
-      height:90px ;
-    }
-    footer h2{
-      font-size: 15px;
-    }
-    footer p{
-      font-size: 7.5px;
-    }
-}
-@media screen and (max-width:375px){
-  html{
-    width: 100%;
-    height: 100%;
-  }
-  body{
-    width: 100%;
-    
-  }
+@media only screen and (max-width: 768px) {
   header h1{
+    font-size: 3em;
+  }
+  .logoAlurra{
+    width: 15%;
+    top: 1.5em;
+  }
+  .caja{
     position: relative;
-    font-size: 20px;
-    top: 20px;
-    left: 20px;
-  }
-  .inTex{
-    position: relative;
-    width: 250px;
-    height: 155px;
-    font-size: 11px;
-  }
-  .butE{
-    width: 120px;
-    height: 30px;
-    font-size: 15px;
-  }
-  .butD{
-    width: 120px;
-    height: 30px;
-    font-size: 15px;
-  }
-  .cajaEncriptar{
-    float: none;
-    width: 100%;
-    height: 300px;
-  }
-  .cajaDesencritado{
-    left: 0;
-    width: 100%;
-    height: 300px;
-  }
-  .cajaTexFinal{
-    position: relative;
-    width: 250px;
-    height: 155px;
-  }
-  .imgTexFinal{
-    width: 50px;
-    height: 50px;
-    left: 99px;
+    height: 55em;
   }
   .texMesage{
-    text-align: center;
-    overflow-y:auto;
+    top: 50%;
   }
-  #texFinH4{
-    position: relative;
-     font-size: 15px;
-     margin-right: 50px;
-     top: 100px;
-     text-align: center;
-  }
-  #texFinP{
-    position: relative;
-    font-size: 5px;
-    margin-right: 50px;
-    top: 100px;
+}
+@media only screen and (max-width: 390px) {
+  header h1{
     text-align: center;
+    font-size: 2em;
+    bottom: 0.4em
+  }
+  .logoAlurra{
+    top: 1em;
+  }
+  .caja{
+    height: 46.7em;
+  }
+  .cajaTexFinal{
+    position: absolute;
     
+    width: 100%;
+    height: 41%;
+    top: 50%;
+    left: 0%
   }
-  .textofinalc{
-    font-size: 11px;
-    overflow-y:scroll;
+  .cajaImput{
+    position: absolute;
+    top:0%;
+    width: 100%;
+    height: 48%;
+  }
+  .inTex{
+    font-size: 2em;
+  }
+  .imgTexFinal{
+    width: 50%;
+    left: 29%;
+    top: 15%;
+  }
+  .texMesage{
+    font-size: 1em;
+    top: 60%;
   }
   .butC{
-    width: 250px;
-    height: 30px;
-    font-size: 15px;
-  }
-  footer{
-    position: relative;
-    width: 100%;
-    height: 50px;
-    top: 20px;
-  }
-  footer h2{
-    font-size: 10px;
-    margin-bottom:1px ;
-  }
-  footer p{
-    font-size: 5px;
-    margin-top:1px ;
+    height: 15%;
   }
 }
