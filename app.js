@@ -78,7 +78,7 @@ function inpTexD() {
     let ufat = ober.replace(/ufat/g, "u")
 
     let hola = document.getElementById('textofinal');
-    hola.textContent = ufat;
+    elemento.textContent = ufat;
 
   }
   inpTexD()
