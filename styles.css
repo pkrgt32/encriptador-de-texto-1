@@ -145,65 +145,206 @@ footer{
   font-family: 'BhuTuka Expanded One', serif;
   
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1023px){
+  body{
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+    font-family: 'Bevan', serif;
+  }
+  
+  header{
+    position: relative;
+    width: 100%;
+    height: 30%;
+   
+  }
   header h1{
-    font-size: 3em;
+    position: relative;
+    text-align: center;
+    font-size: 4em;
+    bottom: 0.5em;
   }
   .logoAlurra{
-    width: 15%;
-    top: 1.5em;
+    position: relative;
+    width: 10%;
+    top: 2em;
   }
   .caja{
     position: relative;
-    height: 55em;
-  }
-  .texMesage{
-    top: 50%;
-  }
-}
-@media only screen and (max-width: 390px) {
-  header h1{
-    text-align: center;
-    font-size: 2em;
-    bottom: 0.4em
-  }
-  .logoAlurra{
-    top: 1em;
-  }
-  .caja{
-    height: 46.7em;
+    width: 100%;
+    height: 45.6em;
+   
+   
   }
   .cajaTexFinal{
     position: absolute;
     
-    width: 100%;
-    height: 41%;
-    top: 50%;
-    left: 0%
-  }
-  .cajaImput{
-    position: absolute;
-    top:0%;
-    width: 100%;
-    height: 48%;
-  }
-  .inTex{
-    font-size: 2em;
+    left: 70%;
+    width: 25%;
+    height: 60%;
+    top: 20%;
+    background-color: #EFF2E6;
+    
   }
   .imgTexFinal{
-    width: 50%;
-    left: 29%;
-    top: 15%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 90%;
+  
   }
   .texMesage{
+    position: relative;
+    text-align: center;
+    top: 50%;
+  }
+  
+  .cajaImput{
+    position: absolute;
+    
+    width: 64%;
+    height: 80%;
+    left: 2%;
+    top: 5%;
+    text-align: center;
+    
+    
+  }
+  #texFinH4{
+    
+    font-size: 25px ;
+    font-weight: bold;
+    margin-bottom: 1.5em; 
+  }
+  #texFinP{
     font-size: 1em;
-    top: 60%;
+    font-family: 'BhuTuka Expanded One', serif;
+  }
+  .textofinalc{
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-family: 'BhuTuka Expanded One', serif;
+    font-size: 1.6em;
+    word-wrap: break-word;
+    overflow-y: hidden;
+    height: auto;
+    box-sizing: border-box;
   }
   .butC{
-    height: 15%;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    width: 30%;
+    height: 5%;
+    border-radius: 51px;
+    color: #7c9631;
+    border-color: #7c9631
+  }
+  .inTex{
+    position: relative;
+    width:60% ;
+    height:60%;
+    top: 15%; 
+    font-size: 3em;
+    font-family: 'BhuTuka Expanded One', serif;
+    
+  }
+  ::placeholder{
+    font-size: -1.6em;
+    color: #7c9631;
+    
+  }
+  .alvertencia{
+    position: absolute;
+    left: 18%;
+    top: 80%;
+    font-family: 'BhuTuka Expanded One', serif;
+  }
+  
+  .butE{
+    position:absolute;
+    top: 87%;
+    left: 18%;
+    height: 10%;
+    width: 30%;  
+    border-radius: 51px;
+    background-color: #7c9631;
+  }
+  .butD{
+    position:absolute;
+    top: 87%;
+    height: 10%;
+    width: 30%;
+    right: 18%;
+    border-radius: 51px;
+    color: #7c9631;
+    border-color: #7c9631;
+  }
+  footer{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    
+    font-family: 'BhuTuka Expanded One', serif;
+    
   }
 }
-@media only screen and (max-width: 778px) {
+@media only screen and (max-width: 768px)   {
+  body{
+    position: relative;
+    width: 100%;
+    height: 1023px;
+    
+    font-family: 'Bevan', serif;
+  }
+ 
+  header h1{
+    text-align: center;
+    font-size: 3em;
+    bottom: 0.4em
+  }
+  .logoAlurra{
+    top: 1.5em;
+  }
+ .caja{
+  width: 100%;
+  height: 800px;
+ }
+
+.cajaTexFinal{
+  position: absolute;
+  
+  width: 100%;
+  height: 40%;
+  top: 80%;
+  left: 0%
+}
+.cajaImput{
+  position: absolute;
+  top:0%;
+  width: 100%;
+  height: 48%;
+}
+.imgTexFinal{
+  width: 0px;
+}
+footer{
+  height: 10%;
+  top: 1310px;
+  
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+  header{
+    height: 10%;
+  }
   header h1{
     text-align: center;
     font-size: 2em;
@@ -220,21 +361,21 @@ footer{
     
     width: 100%;
     height: 41%;
-    top: 50%;
+    top: 70%;
     left: 0%
   }
   .cajaImput{
     position: absolute;
-    top:0%;
+    top:1%;
     width: 100%;
-    height: 48%;
+    height: 50%;
   }
   .inTex{
     font-size: 2em;
   }
   .imgTexFinal{
-    width: 50%;
-    left: 29%;
+    width: 0%;
+    left: 0%;
     top: 15%;
   }
   .texMesage{
