@@ -334,8 +334,8 @@ footer{
   width: 0px;
 }
 footer{
-  height: 10%;
-  top: 1310px;
+  height: 5%;
+  top: 1290px;
   
 }
 
@@ -361,7 +361,7 @@ footer{
     
     width: 100%;
     height: 41%;
-    top: 70%;
+    top: 50%;
     left: 0%
   }
   .cajaImput{
@@ -380,9 +380,14 @@ footer{
   }
   .texMesage{
     font-size: 1em;
-    top: 60%;
+    top: 100px;
   }
   .butC{
     height: 15%;
+  }
+  footer{
+    height: 5%;
+    top: 999px;
+    
   }
 }
