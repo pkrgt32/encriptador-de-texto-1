@@ -5,6 +5,45 @@ body{
   
   font-family: 'Bevan', serif;
 }
+.alertaMay{
+  position: absolute;
+  width: 30%;
+  height: 60%;
+  border: solid;
+  border-color: black;
+  background-color: #eff2e6;
+  top: 15%;
+  left: 30%;
+  
+}
+.top1{
+  position: absolute;
+  width: 100%;
+  height: 11%;
+ 
+  background-color: #7c9631;
+}
+#butX{
+  position: absolute;
+  right: 4%;
+  top: 1%;
+  font-size: 2em;
+  
+}
+.alertImg{
+  position: absolute;
+  width: 40%;
+  top: 20%;
+  left: 30%;
+}
+#parAlert{
+  position: absolute ;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+  top: 60%;
+  
+}
 
 header{
   position: relative;
@@ -30,6 +69,31 @@ header h1{
  
  
 }
+.alertascaja{
+  position: absolute;
+  border:solid;
+  border-color: #7c9631;
+  background-color: #eff2e6;
+  width: 25%;
+  height: 5%;
+  left: 70%;
+  top: 13%;
+  text-align: center;
+  
+}
+
+              
+
+              
+
+            
+            
+.alertasTxtC{
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  text-align: center;
+}
 .cajaTexFinal{
   position: absolute;
   
@@ -42,7 +106,7 @@ header h1{
 }
 .imgTexFinal{
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 10%;
   width: 90%;
 
@@ -50,7 +114,7 @@ header h1{
 .texMesage{
   position: relative;
   text-align: center;
-  top: 70%;
+  top: 60%;
 }
 
 .cajaImput{
@@ -154,6 +218,19 @@ footer{
     font-family: 'Bevan', serif;
   }
   
+  .alertascaja{
+    position: absolute;
+    border:solid;
+    border-color: #7c9631;
+    background-color: #eff2e6;
+    width: 25%;
+    height: 5%;
+    left: 70%;
+    top: 13%;
+    text-align: center;
+    font-size: 12px;
+    
+  }
   header{
     position: relative;
     width: 100%;
@@ -190,7 +267,7 @@ footer{
   }
   .imgTexFinal{
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 10%;
     width: 90%;
   
@@ -302,6 +379,29 @@ footer{
     
     font-family: 'Bevan', serif;
   }
+  .alertaMay{
+    width: 90%;
+    left: 5%;
+  }
+  #parAlert{
+    top: 70%;
+  }
+  .alertascaja{
+    position: absolute;
+    
+    border-color: #EFF2E6;
+    background-color: #fff;
+    width: 30%;
+    height: 5%;
+    left: 67%;
+    top: 83%;
+    text-align: center;
+    font-size: 12px;
+    
+  }
+  .alertasTxtC{
+    left: 5%;
+  }
  
   header h1{
     text-align: center;
@@ -344,6 +444,31 @@ footer{
 @media only screen and (max-width: 767px) {
   header{
     height: 10%;
+  }
+  .alertaMay{
+    width: 75%;
+    left: 12%;
+    
+  }
+  #parAlert{
+    top: 70%;
+  }
+  
+  .alertascaja{
+    position: absolute;
+    
+    border-color: #EFF2E6;
+    background-color: #fff;
+    width: 30%;
+    height: 5%;
+    left: 67%;
+    top: 53%;
+    text-align: center;
+    font-size: 12px;
+    
+  }
+  .alertasTxtC{
+    left: 5%;
   }
   header h1{
     text-align: center;

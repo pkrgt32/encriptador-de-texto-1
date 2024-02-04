@@ -2,13 +2,22 @@
 const botonE = document.getElementById("butE");
 const botonD = document.getElementById("butD");
 const botonC = document.getElementById("butC");
+const botonx = document.getElementById("butX");
 let texFin = document.getElementById("textofinal");
 let texFinH4 = document.getElementById("texFinH4");
 let texFinP = document.getElementById("texFinP")
 let imgTexFinal = document.getElementById("imgTexFinal");
-let texInicio = document.getElementById("texInicio")
+let texInicio = document.getElementById("texInicio");
+let parrafoAlert = document.getElementById("parAlert");
+let alertaMay = document.getElementById("alertaMay");
+let alertascaja = document.getElementById("alrtaCaja");
+
 botonC.style.display = "none";
 
+botonx.style.display = "none";
+parrafoAlert.style.display = "none";
+alertaMay.style.display = "none";
+alertascaja.style.display = 'none';
 
 
 //copia texto
@@ -21,6 +30,11 @@ botonC.addEventListener("click", function() {
   texFinP.style.display = "block";
   texFin.style.display = "none" ;
   botonC.style.display = "none";
+  alertascaja.style.display = 'block';
+  setTimeout(() => {
+    alertascaja.style.display = 'none';
+  }, 3000);
+  
 });
 
 
@@ -34,13 +48,27 @@ function inpTexE() { // la funsion esta en el botos para cuando se presione se e
     let o = a.replace(/o/g, "ober");
     let u = o.replace(/u/g, "ufat");
   
-    let elemento = document.getElementById('textofinal'); //qui se escribe el resutado del texto modificado
-    elemento.textContent = u;
-    borrar ()
+    let texFin = document.getElementById('textofinal'); //qui se escribe el resutado del texto modificado
+    texFin.textContent = u;
+   
+    const error = /[A-Z!@#$%^&*()_+?<>]/;
+
+    if (error.test(textod)) {
+      ifAlert()
+    }else{
+      borrar ()
+    }
+  
+
 }
+setTimeout(() => {
+  miDiv.style.display = 'none';
+}, 2000);
 
 
-inpTexE();
+
+
+
 
     
  
@@ -56,9 +84,18 @@ function inpTexD() {
 
     let hola = document.getElementById('textofinal');
     hola.textContent = ufat;
-    borrar ()
+    
+    const error = /[A-Z!@#$%^&*()_+?><]/;
+
+    if (error.test(textod)) {
+      ifAlert()
+    }else{
+      borrar ()
+    }
+  
+    
   }
-  inpTexD();
+ 
 
   function borrar (){
     if (texInicio.value !== ""){
@@ -70,9 +107,23 @@ function inpTexD() {
       texFin.style.display = "block" // si el valor es block el elemento se muestra este valor es el balor predeterminado
       botonC.style.display = "block";
       texInicio.value = '' // elimina el texto de input
-      
-    
     }
+    
+    
   }
-  borrar()
+
+  function ifAlert() {
+    botonx.style.display = 'block';
+      parrafoAlert.style.display = 'block';
+      alertaMay.style.display = 'block';
+      texFin.textContent = '';
+      texInicio.value = ''  ;
+  }
+  
+function citarAlert (){
+    botonx.style.display = "none";
+    parrafoAlert.style.display = "none"
+    alertaMay.style.display = "none"
+    
+  }
 

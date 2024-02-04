@@ -15,9 +15,11 @@
       <img class="logoAlurra" src="img/Logo (1).png" alt="imajen alira">
       <h1>Encriptador de texto</h1>
     </header>
+    
     <div class="caja">
+      
        <div class="cajaImput">
-          <textarea maxlength="200" onkeyup="this.value = this.value.toLowerCase().replace(/[^a-z0-9 ]/g, '')"   class="inTex"id="texInicio"      placeholder="Ingrese el texto aqui" ></textarea>
+          <textarea maxlength="200"   class="inTex"id="texInicio"      placeholder="Ingrese el texto aqui" ></textarea>
           
           <P class="alvertencia">&#x2757 Solo letras minúsculas y sin acentos</P>
 
@@ -27,19 +29,30 @@
         </div>
       </div>    
         
-       
+      
       <div class="cajaTexFinal">
         <p class="textofinalc" id="textofinal"></p>
         <img class="imgTexFinal" id="imgTexFinal" src="img/busqueda-removebg-preview.png" alt="muñeca">
         <h4 class="texMesage" id="texFinH4">Ningún mensaje fue encontrado</h4>
         <p class="texMesage" id="texFinP">Ingresa el texto que desees encriptar o desencriptar.</p>
+         
          <button class="butC" id="butC">copiar</button>  
       </div>
       
-        
     </div>
+    <div class="alertaMay" id="alertaMay">
+      <div class="top1"> </div>
+      <button onclick="citarAlert();" id="butX">X</button>
+        <img src="img/giphy.gif" alt="mano didiendo no con el dedo indise" class="alertImg">
+       <p id="parAlert">el texto no debe de contener mayúsculas o caracteres especiales </p>
+      
+       
+    </div>
+   <div class="alertascaja" id="alrtaCaja">
+        <p class="alertasTxtC">El texto fue copiado con exito</p>
+      </div>
     <footer>
-        <H2>&copy 2024</H2>
+        <H2>&copy pkrgt32-2024</H2>
         <p>grupo 6</p> <P>alura latam </P>
     </footer>
     <script src="app.js"></script>
