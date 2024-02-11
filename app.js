@@ -51,7 +51,7 @@ function inpTexE() { // la funsion esta en el botos para cuando se presione se e
     let texFin = document.getElementById('textofinal'); //qui se escribe el resutado del texto modificado
     texFin.textContent = u;
    
-    const error = /[A-Z!@#$%^&*()_+?<>]/;
+    const error = /[A-Z!@#$%^&´*()_+?<>]/;
 
     if (error.test(textod)) {
       ifAlert()
